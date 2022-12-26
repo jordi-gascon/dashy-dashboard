@@ -1,0 +1,36 @@
+name: ⚡️ Requests & Suggestions
+description: Suggest an icon or request changes
+title: "⚡ — *put a quick title describing your issue here*"
+labels: ⚡️ Requests & Suggestions
+assignees: WalkxCode
+body:
+  - type: markdown
+    attributes:
+      value: |
+        *Thank you in advance for taking the time to fill out this Requests & Suggestions form!*
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: Choose the option below which best descibes your issue.
+      options:
+        - Icon request
+        - Icon enhancement
+        - Documentation change
+  - type: textarea
+    id: info
+    attributes:
+      label: Info
+      description: Place any relevant information here. Information about the icons you want to request, the documentation changes you want to see, etc.
+      placeholder: ex. Please add a dark version for the Homarr icon.
+    validations:
+      required: true
+  - type: textarea
+    id: icon
+    attributes:
+      label: Icon(s)
+      description: Upload your icons here. You can do this by Copy-Pasting or Drag&Dropping the images.
+      placeholder: SVG and PNG accepted!
+    validations:
+      required: false
+  

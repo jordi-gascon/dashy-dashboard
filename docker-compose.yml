@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    dashy:
+        ports:
+            - '8080:80' #8080 port can be changed for other you prefer
+        container_name: dashy
+        restart: unless-stopped
+        volumes:
+            - './conf.yml:/app/public/conf.yml'
+            - './icons/:/app/public/item-icons/icons'
+        image: 'lissy93/dashy:latest'
