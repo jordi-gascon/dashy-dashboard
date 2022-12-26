@@ -32,7 +32,7 @@ A continuación te muestro como descargarlo y ejecutarlo.
 Descargamos el repositorio en el directorio que queramos
 
 ```bash
-# git clone 
+# git clone https://github.com/jordi-gascon/dashy-dashboard.git
 ```
 A continuación accedemos al a la carpeta dashy-dasboard
 ```bash
